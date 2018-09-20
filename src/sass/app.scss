@@ -1,0 +1,14 @@
+@import './lib/reboot.css';
+.wrapper{
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	height: 100vh;
+	background-color: #fafafa;
+}
+h1{
+	margin: 0;
+	color: #0a0a3a;
+}

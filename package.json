@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "dev": "NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+        "prod": "NODE_ENV=production  webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "browser-sync-webpack-plugin": "^2.2.2"
+    },
+    "dependencies": {
+        "laravel-mix": "^2.1.14"
+    }
+}
